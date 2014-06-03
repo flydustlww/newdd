@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71C52BD18DEABCC0035356C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71C52BC18DEABCC0035356C /* Security.framework */; };
+		E799D3F218DC1CCF008E6E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E799D3F118DC1CCF008E6E0C /* Foundation.framework */; };
+		E799D3F518DC1CCF008E6E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E799D3F418DC1CCF008E6E0C /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E799D3EB18DC1CCF008E6E0C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E71C52BC18DEABCC0035356C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E799D3ED18DC1CCF008E6E0C /* DesktopDirect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesktopDirect; sourceTree = BUILT_PRODUCTS_DIR; };
+		E799D3F118DC1CCF008E6E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E799D3F418DC1CCF008E6E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E799D3F718DC1CCF008E6E0C /* DesktopDirect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesktopDirect-Prefix.pch"; sourceTree = "<group>"; };
+		E799D3F818DC1CCF008E6E0C /* DesktopDirect.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DesktopDirect.1; sourceTree = "<group>"; };
+		E799D3FE18DC1D86008E6E0C /* ARTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E799D3EA18DC1CCF008E6E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71C52BD18DEABCC0035356C /* Security.framework in Frameworks */,
+				E799D3F218DC1CCF008E6E0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E799D3E218DC1CCF008E6E0C = {
+			isa = PBXGroup;
+			children = (
+				E71C52BC18DEABCC0035356C /* Security.framework */,
+				E799D3F318DC1CCF008E6E0C /* DesktopDirect */,
+				E799D3F018DC1CCF008E6E0C /* Frameworks */,
+				E799D3EE18DC1CCF008E6E0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E799D3EE18DC1CCF008E6E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E799D3ED18DC1CCF008E6E0C /* DesktopDirect */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E799D3F018DC1CCF008E6E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E799D3F118DC1CCF008E6E0C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E799D3F318DC1CCF008E6E0C /* DesktopDirect */ = {
+			isa = PBXGroup;
+			children = (
+				E799D3F418DC1CCF008E6E0C /* main.m */,
+				E799D3F818DC1CCF008E6E0C /* DesktopDirect.1 */,
+				E799D3F618DC1CCF008E6E0C /* Supporting Files */,
+				E799D3FE18DC1D86008E6E0C /* ARTConfig.h */,
+			);
+			path = DesktopDirect;
+			sourceTree = "<group>";
+		};
+		E799D3F618DC1CCF008E6E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E799D3F718DC1CCF008E6E0C /* DesktopDirect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E799D3EC18DC1CCF008E6E0C /* DesktopDirect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E799D3FB18DC1CCF008E6E0C /* Build configuration list for PBXNativeTarget "DesktopDirect" */;
+			buildPhases = (
+				E799D3E918DC1CCF008E6E0C /* Sources */,
+				E799D3EA18DC1CCF008E6E0C /* Frameworks */,
+				E799D3EB18DC1CCF008E6E0C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesktopDirect;
+			productName = DesktopDirect;
+			productReference = E799D3ED18DC1CCF008E6E0C /* DesktopDirect */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E799D3E418DC1CCF008E6E0C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E799D3E718DC1CCF008E6E0C /* Build configuration list for PBXProject "DesktopDirect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E799D3E218DC1CCF008E6E0C;
+			productRefGroup = E799D3EE18DC1CCF008E6E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E799D3EC18DC1CCF008E6E0C /* DesktopDirect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E799D3E918DC1CCF008E6E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E799D3F518DC1CCF008E6E0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E799D3F918DC1CCF008E6E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E799D3FA18DC1CCF008E6E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E799D3FC18DC1CCF008E6E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesktopDirect/DesktopDirect-Prefix.pch";
+				INSTALL_PATH = /usr/local/ArrayDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E799D3FD18DC1CCF008E6E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesktopDirect/DesktopDirect-Prefix.pch";
+				INSTALL_PATH = /usr/local/ArrayDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E799D3E718DC1CCF008E6E0C /* Build configuration list for PBXProject "DesktopDirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E799D3F918DC1CCF008E6E0C /* Debug */,
+				E799D3FA18DC1CCF008E6E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E799D3FB18DC1CCF008E6E0C /* Build configuration list for PBXNativeTarget "DesktopDirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E799D3FC18DC1CCF008E6E0C /* Debug */,
+				E799D3FD18DC1CCF008E6E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E799D3E418DC1CCF008E6E0C /* Project object */;
+}
