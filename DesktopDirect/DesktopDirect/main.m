@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-SBSBSBSBSBSBSBSBSBSBSB
 #include <stdlib.h>
 #include <string.h>
 #include <syslog.h>
