@@ -10,6 +10,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <syslog.h>
+kdowow
+dwofw
+dowgj
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <sys/ioctl.h>
