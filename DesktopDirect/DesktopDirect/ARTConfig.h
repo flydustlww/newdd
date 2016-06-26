@@ -7,6 +7,9 @@
 //
 #ifndef ArrayDesktopDirect_ARTConfig_h
 #define ArrayDesktopDirect_ARTConfig_h
+ekkjgwd
+ejgjd
+er
 #define MSG_TYPE_GET_INFO 1
 #define MSG_TYPE_CLOSING  9999
 #define BAKUPPLIST "/usr/local/ArrayDD/bak.plist"
